@@ -1,0 +1,74 @@
+/* This is a CSS comment */
+body { /* this is the setup for the page */
+  background-color: #FFFFF3;
+  padding: 20px 10px;
+  font-family: Arial;
+  max-width: 2000px;
+  margin: 0 auto;
+  font-size: 1.4em;
+}
+
+h1 { /* This is the setup for my first header "INTRODUCTION TO COMPUTER PROGRAMMING" */
+  font-family: Bodoni MT Black;
+  text-align: center;
+  color: black;
+  font-size: 3.0em;
+}
+h2 { /* This is the setup for my second header "TABLE OF CONTENTS" */
+  text-align: center;
+  color: #294860;
+}
+
+ul { /* This removes the bullets from my list */
+  list-style-type: none;
+}
+
+li { /* This is the setup for the contents of my "Table of Contents" */
+  font-size: 20px;
+  line-height: 44px;
+}
+
+.lesson { /* This defines the box that houses my lesson titles */
+  background-color: #92D4C3;
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+  margin: 10px auto;
+ }
+
+h3 { /* This defines how my lesson titles look and how they are displayed */
+  margin: 20px;
+  text-align: center;
+  color: black;
+  font-size: 1.5em;
+}
+
+.concept { /* This defines the box that houses my concepts */
+  background-color: #FFFFDB;
+  padding: 4px;
+  margin: 10px;
+  border-radius: 7px;
+  color: black;
+  
+}
+
+.concept-title {  /* This defines how my concept titles look and how they are displayed */
+  margin: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.concept-description {  /* This defines how my concept desription looks and how the text is displayed */
+  font-weight: lighter;
+  margin: 6px;
+}
+
+.code { /* This is an example of CSS used in the CSS section in lesson 3 */ 
+  font-family: Algerian;
+  color: black;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 30px;
+}
+
